@@ -1,0 +1,574 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.9)  13 AUG 2018 22:00
+entering extended mode
+**./Lab#4_203374061_300546173.tex
+(Lab#4_203374061_300546173.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.s
+ty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.
+sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts
+.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex
+.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks22
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+.cfg"))
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec
+.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box30
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen122
+\ttl@minus=\dimen123
+\ttl@toksa=\toks23
+\titlewidth=\dimen124
+\titlewidthlast=\dimen125
+\titlewidthfirst=\dimen126
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.sty"
+\lst@mode=\count103
+\lst@gtempboxa=\box31
+\lst@token=\toks24
+\lst@length=\count104
+\lst@currlwidth=\dimen127
+\lst@column=\count105
+\lst@pos=\count106
+\lst@lostspace=\dimen128
+\lst@width=\dimen129
+\lst@newlines=\count107
+\lst@lineno=\count108
+\lst@maxwidth=\dimen130
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.
+sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
+\lst@framebox=\box32
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.st
+y"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1
+.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (Lab#4_203374061_300546173.aux)
+\openout1 = `Lab#4_203374061_300546173.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+
+(C:\Users\Daniel\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen131
+\scratchbox=\box33
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen132
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks26
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
+eys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
+ds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+ex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
+cmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count117
+<Images/LOGO.png, id=1, 585.68813pt x 94.10156pt>
+File: Images/LOGO.png Graphic file (type png)
+<use Images/LOGO.png>
+Package pdftex.def Info: Images/LOGO.png  used on input line 45.
+(pdftex.def)             Requested size: 468.55113pt x 75.28134pt.
+
+Overfull \hbox (15.58324pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+(Q1.m
+Missing character: There is no í in font cmr10!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+Missing character: There is no í in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no î in font cmr10!
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+ ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/Daniel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/L
+OGO.png>]
+Missing character: There is no ì in font cmr10!
+Missing character: There is no î in font cmr10!
+) [2]
+<Images/1_a.png, id=15, 486.31688pt x 361.35pt>
+File: Images/1_a.png Graphic file (type png)
+<use Images/1_a.png>
+Package pdftex.def Info: Images/1_a.png  used on input line 68.
+(pdftex.def)             Requested size: 243.15784pt x 180.67456pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+<Images/1_b.png, id=16, 505.13719pt x 374.90062pt>
+File: Images/1_b.png Graphic file (type png)
+<use Images/1_b.png>
+Package pdftex.def Info: Images/1_b.png  used on input line 76.
+(pdftex.def)             Requested size: 252.56798pt x 187.44984pt.
+<Images/1_c.png, id=17, 303.38344pt x 153.57375pt>
+File: Images/1_c.png Graphic file (type png)
+<use Images/1_c.png>
+Package pdftex.def Info: Images/1_c.png  used on input line 83.
+(pdftex.def)             Requested size: 121.35121pt x 61.4284pt.
+ [3 <./Images/1_a.png> <./Images/1_b.png> <./Images/1_c.png>]
+<Images/2_a.png, id=22, 434.37282pt x 581.92406pt>
+File: Images/2_a.png Graphic file (type png)
+<use Images/2_a.png>
+Package pdftex.def Info: Images/2_a.png  used on input line 95.
+(pdftex.def)             Requested size: 217.18587pt x 290.96132pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ (Q2.m [4 <./Images/2_a.png>])
+<Images/2_b.png, id=27, 935.74594pt x 553.31718pt>
+File: Images/2_b.png Graphic file (type png)
+<use Images/2_b.png>
+Package pdftex.def Info: Images/2_b.png  used on input line 105.
+(pdftex.def)             Requested size: 421.08179pt x 248.99043pt.
+ [5 <./Images/2_b.png>] (GetTranslationMat.m)
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+[6] (Q4_a.m)
+<Images/4_set.png, id=36, 1139.75812pt x 267.24844pt>
+File: Images/4_set.png Graphic file (type png)
+<use Images/4_set.png>
+Package pdftex.def Info: Images/4_set.png  used on input line 130.
+(pdftex.def)             Requested size: 455.89517pt x 106.89748pt.
+
+Overfull \hbox (2.92728pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+<Images/4_a.png, id=37, 182.93344pt x 187.45032pt>
+File: Images/4_a.png Graphic file (type png)
+<use Images/4_a.png>
+Package pdftex.def Info: Images/4_a.png  used on input line 137.
+(pdftex.def)             Requested size: 109.7609pt x 112.47104pt.
+[7 <./Images/4_set.png> <./Images/4_a.png>] (Q4_cd.m) [8] (Q4_e.m)
+<Images/4_Plot_Show.png, id=47, 669.2503pt x 459.96844pt>
+File: Images/4_Plot_Show.png Graphic file (type png)
+<use Images/4_Plot_Show.png>
+Package pdftex.def Info: Images/4_Plot_Show.png  used on input line 158.
+(pdftex.def)             Requested size: 348.01216pt x 239.18497pt.
+<Images/4_calculation.png, id=48, 299.61937pt x 126.4725pt>
+File: Images/4_calculation.png Graphic file (type png)
+<use Images/4_calculation.png>
+Package pdftex.def Info: Images/4_calculation.png  used on input line 166.
+(pdftex.def)             Requested size: 179.77301pt x 75.88408pt.
+ [9 <./Images/4_Plot_Show.png (PNG copy)> <./Images/4_calculation.png>] (Q5_a.m
+ [10])
+(Q_latex_5_b.m
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 13.
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 13.
+) [11]
+<Rob_Pose_Err.png, id=59, 965.10562pt x 370.38374pt>
+File: Rob_Pose_Err.png Graphic file (type png)
+<use Rob_Pose_Err.png>
+Package pdftex.def Info: Rob_Pose_Err.png  used on input line 201.
+(pdftex.def)             Requested size: 463.24544pt x 177.78217pt.
+
+Overfull \hbox (10.27754pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
+<3DvsWND.png, id=60, 836.3747pt x 321.45094pt>
+File: 3DvsWND.png Graphic file (type png)
+<use 3DvsWND.png>
+Package pdftex.def Info: 3DvsWND.png  used on input line 209.
+(pdftex.def)             Requested size: 468.36664pt x 180.01129pt.
+
+Overfull \hbox (15.39874pt too wide) in paragraph at lines 209--210
+ [][] 
+ []
+
+[12 <./Rob_Pose_Err.png (PNG copy)> <./3DvsWND.png (PNG copy)>] (Q5_c.m)
+<Images/5_c.png, id=64, 650.43pt x 464.4853pt>
+File: Images/5_c.png Graphic file (type png)
+<use Images/5_c.png>
+Package pdftex.def Info: Images/5_c.png  used on input line 222.
+(pdftex.def)             Requested size: 390.261pt x 278.69333pt.
+
+[13 <./Images/5_c.png>]
+<Images/set_1.png, id=70, 1090.82532pt x 275.52937pt>
+File: Images/set_1.png Graphic file (type png)
+<use Images/set_1.png>
+Package pdftex.def Info: Images/set_1.png  used on input line 230.
+(pdftex.def)             Requested size: 461.4225pt x 116.54977pt.
+
+Overfull \hbox (8.4546pt too wide) in paragraph at lines 230--231
+ [][] 
+ []
+
+<Images/set_2.png, id=71, 1160.83687pt x 275.52937pt>
+File: Images/set_2.png Graphic file (type png)
+<use Images/set_2.png>
+Package pdftex.def Info: Images/set_2.png  used on input line 236.
+(pdftex.def)             Requested size: 464.32652pt x 110.20978pt.
+
+Overfull \hbox (11.35863pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+<Images/set_3.png, id=72, 1155.56718pt x 276.28218pt>
+File: Images/set_3.png Graphic file (type png)
+<use Images/set_3.png>
+Package pdftex.def Info: Images/set_3.png  used on input line 242.
+(pdftex.def)             Requested size: 462.21869pt x 110.51091pt.
+
+Overfull \hbox (9.2508pt too wide) in paragraph at lines 242--243
+ [][] 
+ []
+
+<Images/set_4.png, id=73, 1172.12906pt x 281.55188pt>
+File: Images/set_4.png Graphic file (type png)
+<use Images/set_4.png>
+Package pdftex.def Info: Images/set_4.png  used on input line 248.
+(pdftex.def)             Requested size: 468.84332pt x 112.61874pt.
+
+Overfull \hbox (15.87543pt too wide) in paragraph at lines 248--249
+ [][] 
+ []
+
+[14 <./Images/set_1.png> <./Images/set_2.png> <./Images/set_3.png> <./Images/se
+t_4.png>] (Lab#4_203374061_300546173.aux) ) 
+Here is how much of TeX's memory you used:
+ 5472 strings out of 493312
+ 76003 string characters out of 3138947
+ 320579 words of memory out of 3000000
+ 8909 multiletter control sequences out of 15000+200000
+ 6857 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,8n,40p,294b,1975s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Daniel/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Daniel/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/User
+s/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Lab#4_203374061_300546173.pdf (14 pages, 4582409 bytes).
+PDF statistics:
+ 100 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+

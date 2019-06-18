@@ -1,0 +1,103 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx,wrapfig,lipsum}
+\graphicspath{ {Images/} }
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+\onehalfspacing
+\includegraphics[scale=0.50]{Logo} \\
+\begin{center}
+\textbf{Daniel Engelsman 300546173}
+\end{center} 
+
+
+\textbf{{\Large Intuitive Intro}} \begin{flushleft}
+In previous lectures we've seen how to project a 3D landmark onto our image frame using calibration matrix (K) and camera pose $\pi(x,l)$. This lecture we've learned how to use that process at a time, when the camera moves and augments frames (i). Each point in an image (i) corresponds to a line in 3D space, and the algorithm responsible for the correspondence was assumed in class as "black box" ($p_i \leftrightarrow l_i$). In that pre-lab I will summarize the Triangulation process and show the algebraic tools.
+\end{flushleft}
+
+
+\begin{wrapfigure}{r}{8cm}
+\includegraphics[width=8cm]{pic_1} 
+\end{wrapfigure}
+The following illustration shows the correspondence of one landmark to few different image frames via LOS. 
+In computer vision, Triangulation refers to the process of determining a point in 3D space given its projections onto two, or more, images. In order to solve this problem it is necessary to know the parameters of the camera projection function from 3D to 2D for the cameras involved, in the simplest case represented by the camera matrices. Triangulation is sometimes also referred to as reconstruction.\newpage
+
+% ------------------ The Algorithm ------------------ %
+\textbf{{\Large The Algorithm}}
+
+Generally and Ideally$^{[1]}$ speaking, the process can be portrayed as :
+\begin{flushleft}
+\includegraphics[width=1.2\textwidth]{Triangulation} 
+\end{flushleft}
+
+\begin{flushleft}
+The left part is the projection process. The upper part is the tracking algorithm$^{[2]}$ that is responsible on corresponding the landmarks between different images, and extracting the pixels$^{[3]}$.\\
+The right part is the rearrangement of the linear equations$^{[4]}$ and later on will be extracted via numeric methods. The lower part is the Least Squares method$^{[5]}$ (TBD later on), which ends up in a new motion step, that generates a new image frame$^{[6]}$.
+\end{flushleft}
+
+\newpage
+
+
+% ------------------ Algebra  ------------------ %
+\textbf{{\Large Algebraic Formulation}} \\
+
+Recalling that every ($p_i \leftrightarrow l_i$) generates a set of 2 equations $(u,v)$. The linearity of the problem allows us to rearrange the projection matrix matricially, \textbf{once at a time}, and concatenate it.
+
+\begin{center}
+$\begin{bmatrix}
+u^iM^i_{31}-M^i_{11}	& u^iM^i_{32}-M^i_{12}	& u^iM^i_{33}-M^i_{13}	\\
+v^iM^i_{31}-M^i_{21}	& v^iM^i_{32}-M^i_{22}	& v^iM^i_{33}-M^i_{23}	\\ 
+\end{bmatrix} \begin{bmatrix} X \\ Y \\ Z \end{bmatrix} 
+=\begin{bmatrix}
+-u^iM^i_{34}+M^i_{14}		\\
+-v^iM^i_{33}+M^i_{24}		\\ 
+\end{bmatrix}$ 
+\end{center}
+
+\begin{center} \textbf{Sizes :}
+$(M^i_{jk} \in \mathbb{R}^{2 \times 3}) \quad \quad \quad \quad and \quad \quad \quad \quad (b^i_{j} \in \mathbb{R}^{2 \times 1})$
+\end{center}
+
+Assume we took n images along motion, we would like to "store" it aside efficiently. Therefore, the general augmentation matrix can be denoted as : \\
+\begin{center} $\begin{bmatrix}
+A_{11}		& A_{12}		& A_{13}	\\
+A_{21}		& A_{22}		& A_{23}	\\
+----		&----			&----		\\
+...			&...			&...		\\
+----		&----			&----		\\
+A_{2n-1,1}		& A_{2n-1,2}		& A_{2n-1,3}	\\
+A_{2n,1}		& A_{2n,2}		& A_{2n,3}	\\
+\end{bmatrix} \begin{bmatrix} X^w \\ Y^w \\ Z^w \end{bmatrix} = \begin{bmatrix} 
+b_{l1} \\ b_{l2} \\ ---- \\ ... \\ ---- \\ b_{2n-1} \\ b_{2n} \end{bmatrix}$ \end{center}
+
+\begin{center} \textbf{Sizes :}
+$(A \in \mathbb{R}^{2n \times 3}) \quad \quad \quad and \quad \quad \quad (b \in \mathbb{R}^{2n \times 1})$
+\end{center}
+
+\begin{flushleft} One can see that the total number of images satisfies $(n >> 3)$, allowing us to obtain in some of the images better predictions. Therefore we would like to make an "average" of optimization that will reduce the error as much as possible. This is where the \textbf{Least Square} Method becomes handy : 
+\end{flushleft} \newpage
+
+Simple solution of a linear set can be denoted as : \\
+\begin{center} Least Squares (LS) $$S(x) = \sum_{j=1}^{n} A_{ij}x_j\bigr|^2 - \sum_{i=1}^{m}\bigl| b_i= \bigl\|\mathbf A \boldsymbol x - \textbf{b} \bigr\|^2$$\end{center}
+Here however, we are working with the aforementioned matrices that force us to compute it using matrix representation :  
+
+$$S(x) = \textbf{x*} = (A^T A)^{-1} A^T \textbf{b} $$ \\
+
+% ----------------- Assumptions ----------------- %
+\textbf{{\Large Assumptions made}}: \begin{flushleft}
+$[1]$ Ideal process - No external and internal noises. \\
+$[2]$ Correspondence / Tracking Algorithm is already "given" $\Rightarrow$ no need to know 3D coordinates of landmark.\\
+$[3]$ Ideal Recovery - $(u,v)^T = \pi(x,l)$. \\
+$[4]$ Set of Linear Equations $\Rightarrow$ allows using Linear Method. \\
+$[5]$ No computational constraints nor storage limit. \\ 
+$[6]$ Reasonable motion rate $\Rightarrow$ Tracking is continuous.
+
+\end{flushleft}
+
+
+
+
+\end{document}
