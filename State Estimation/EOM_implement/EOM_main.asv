@@ -1,0 +1,103 @@
+clc; close all; clear all; set(0,'defaultfigurecolor',[1 1 1]);
+%% ************************ EOM - Navigation Frame ************************ %
+% ---------- Global Parameters Initialization ------------ %
+global Omg_ib_b omg_ie Re e g i   % Earth Parametes
+global T_b_n Vn Ve Vd g_n f_ib_b    % Velocity Parametes
+global fx fy fz omg_x omg_y omg_z       % Insrtuments Mesurements
+
+% ------- Initial Position [Geographic Coordinates] ------ %
+E = wgs84Ellipsoid;                     % Earth's Reference Model 1984
+% ------------- Locations for validification ------------- %
+lat1 = 32.77611;      lon1 = 35.022366; % Technion
+lat2 = 33.31522;      lon2 = 44.366071; % Baghdad <- (Desired Destination)
+% lat2 = 32.91613;      lon2 = 35.292520; % Karmiel
+% lat2 = 32.79034;     lon2 = 35.52942; % Tiberias
+% lat2 = 32.51065;     lon2 = 35.00405; % Menashe
+
+% ******************* Physical Properties ******************* %
+i  = 1;                                 % Loop's index Initialization
+h  = 0;                                 % Flight Altitude [m]
+g  = 9.78;                              % Model's Gravitation [m/sec2]
+Re = E.MeanRadius;                      % Planet Earth Mean Radius [m]
+e  = E.Eccentricity;                    % Planet Earth Eccentricity
+omg_ie = 2*pi/86400;                    % Earth's Angular Velocity [1/s]
+
+%% -------------------------- Initial Conditions -------------------------- %
+% ----- Initial Orientations (Assumption: Steady State ) ----- %
+% phi_0 = deg2rad(lat1); lambda0 = deg2rad(lon1);  % I.C. of Meridians
+phi = deg2rad(45); lambda = deg2rad(0);   % Greenwich point
+[Dist, Az] = distance(phi, lambda, lat2, lon2, E);
+ev_dist = Dist;
+% ----------------- Initial T_b_n Condition ------------------ %
+Phi  = 0; Theta = 0; Psi = deg2rad(0);% I.C. Euler angles [r,p,y]
+T_b_n(:,:,i) = angle2dcm(Phi,Theta,Psi,'xyz'); % Body to Navigation frame
+
+% ------------------ Initial Body Kinemtics ------------------ %
+Vx = 1000;                              % Forward Speed   [m/sec]
+Vy = 0;                                 % No Lateral Slip [m/sec]
+Vz = 0;                                 % Constant Height [m/sec]
+V_b = [Vx Vy Vz]';                      % Velocity in (Body)
+V_n = T_b_n*V_b;                        % Velocity in (Navigation)
+Vn=V_n(1); Ve=V_n(2); Vd=V_n(3);        % Assigning V_n Parameters
+
+% ------------------- Initial Body Dynamics ------------------ %
+% ***** !! When vehicle accelerates : put inside Loop !! ***** %
+g_n      = [0 0 g]';                    % Gravitational Acceleration
+fx=0; fy=0; fz=-g;                      % No Accelereation (Steady State)
+f_ib_b   = [fx fy fz]';                 % Accelerometer Measurements
+omg_x=0; omg_y=0; omg_z=0;              % No Angular Vel.  (Steady State)
+omg_ib_b = [omg_x omg_y omg_z]';        % Angular Velocity Vector (Body)
+Omg_ib_b = skew_symmetric(omg_ib_b);    % In Skew Symmetric From
+
+% -------------------- Memory Allocation --------------------- %
+N = 1000;                               % N - Total Number of steps
+dt   = 1;                               % dt = Integration step size
+P_n  = [[phi lambda h]' zeros(3,N-1)];
+V_n  = [V_n  zeros(3,N-1)];
+ev_dist = [ev_dist; zeros(N-1,1)];
+
+% ---------------- Step Promotion due to dt size--------------- %
+for i=1:N-1
+    P_n(:,i+1) = P_n(:,i) + dt*dP_n(phi, h, V_n(:,i));
+    V_n(:,i+1) = V_n(:,i) + dt*dV_n(phi, h, V_n(:,i));
+    T_b_n(:,:,i+1) = T_b_n(:,:,i) + dt*dT_bn;
+    % ----------- Update phi, Lambda and h values ------------ %
+    phi = P_n(1,i+1);  lambda = P_n(2,i+1);  h = P_n(3,i+1);
+    % ----- Calculte Current Distance between 2 points  ------ %
+    [Dist, Az] = distance(rad2deg   phi, lambda, lat2, lon2, E);
+    ev_dist(i+1) = Dist;
+    % Break Condition - Stop when closest
+%     if i>1 && ev_dist(i) > ev_dist(i-1)
+%         ev_dist = ev_dist(1:i);
+%         break;
+%     end
+end
+
+%% ----------------------- Process & Visualization ------------------------ %
+% ---------- Forming vectors in Degrees ------------ %
+vec_phi = rad2deg( P_n(1,:)' );
+vec_lam = rad2deg( P_n(2,:)' );
+vec_h   = rad2deg( P_n(3,:)' );
+km = 1000;
+% ---- Note: using (i) instead of (N) for break condition ----- %
+
+% --------- Geographic Coordinates vs Step --------- %
+hold on; grid on;
+plot(1:(i+1), vec_phi, '-', 1:(i+1), vec_lam, '-','LineWidth', 1.5)
+ind(1) = title('Geographic Coordinates Vs. Step');
+ind(2) = xlabel('Steps Number');
+ind(3) = ylabel('[deg]');
+% ---------------- Distance vs Step ---------------- %
+yyaxis right
+plot(1:(i+1), ev_dist/km, 'g-', 'LineWidth', 1.5);
+ind(4) = ylabel('Distance [km]'); set(gca,'ycolor','b')
+ind(5) = legend('$\phi$', '$\lambda$', 'Dist.');
+set(ind, 'Interpreter', 'latex', 'fontsize', 14 );
+
+% -------------- Height Level vs Step -------------- %
+figure(2); hold on; grid on;
+plot(1:(i+1), vec_h, '-');
+ind(1) = title('Height Vs. Step');
+ind(2) = xlabel('Steps Number');
+ind(3) = ylabel('Height [m]');
+set(ind, 'Interpreter', 'latex', 'fontsize', 14 ); 

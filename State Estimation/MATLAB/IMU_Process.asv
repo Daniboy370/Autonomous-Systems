@@ -1,0 +1,65 @@
+%% ---------------------- Data Extraction from IMU ------------------------ %
+clc; clear all; close all; set(0,'defaultfigurecolor',[1 1 1]);
+load('Trial_acc');  load('Trial_gyro');
+	
+%% -------------------- Accelerometer Data Extraction --------------------- %
+% acc.Data(1,:) = X_value;
+% acc.Data(2,:) = Y_value;
+% acc.Data(3,:) = Z_value;
+% acc.Time = time;
+% ------------------------- Gyro Data Extraction -------------------------- %
+% gyro.Data(1,:) = X_value;
+% gyro.Data(2,:) = Y_value;
+% gyro.Data(3,:) = Z_value;
+% gyro.Time = time;
+
+%% ----------------------------- Plot Results ----------------------------- %
+figure('rend','painters','pos',[1800 60 900 600]);
+grid on; hold on;
+% ---------------- Accelerometer Plot ---------------- %
+subplot(2,1,1);
+plot( acc.Time, acc.Data, '-', 'LineWidth', 1.5);
+ind(1) = title( '$f_{ib}^b$ vs. Time' );
+ind(2) = xlabel('Time [sec]');
+ind(3) = ylabel('acc. $[m/sec^2]$');
+ind(4) = legend('$a_x$', '$a_y$', '$a_z$');
+grid on;
+% --------------------- Gyro Plot -------------------- %
+subplot(2,1,2);
+plot(gyro.Time, gyro.Data, '-', 'LineWidth', 1.5);
+ind(5) = title( '${\Omega}_{ib}^b$ vs. Time' );
+ind(6) = xlabel('Time [sec]');
+ind(7) = ylabel('$\omega$ $[rad/sec]$');
+ind(8) = legend('$\omega_x$', '$\omega_y$', '$\omega_z$');
+grid on;
+% ---------------------------------------------------- %
+a = get(gca,'XTickLabel');
+set(gca,'XTickLabel', a, 'fontsize', 14, 'XTickLabelMode', 'auto');
+set(ind, 'Interpreter', 'latex', 'fontsize', 22);
+
+%% ---------------------- Plot - Cumulative Integral ---------------------- %
+close all;
+figure('rend','painters','pos',[1800 60 900 600]);
+grid on; hold on;
+% ---------------- Accelerometer Plot ---------------- %
+v_t = cumtrapz(acc.Time, acc.Data(2,:));
+a_t = cumtrapz(acc.Time, acc.Data(2,:));
+subplot(2,1,1);
+plot( acc.Time, v_t, '-', 'LineWidth', 1.5);
+ind(1) = title( '$v_j$ vs. Time' );
+ind(2) = xlabel('Time [sec]');
+ind(3) = ylabel('Vel. $[m/sec]$');
+ind(4) = legend('$v_j$');
+grid on;
+% --------------------- Gyro Plot -------------------- % 
+subplot(2,1,2);
+plot( gyro.Time(3710:4242), cumtrapz(gyro.Data(1,3710:4242), gyro.Time(3710:4242)), '-', 'LineWidth', 1.5);
+ind(5) = title( '$\theta$ vs. Time' );
+ind(6) = xlabel('Time [sec]');
+ind(7) = ylabel('$\theta$ $[rad]$');
+ind(8) = legend('$\theta_j$');
+grid on;
+% ---------------------------------------------------- %
+a = get(gca,'XTickLabel');
+set(gca,'XTickLabel', a, 'fontsize', 14, 'XTickLabelMode', 'auto');
+set(ind, 'Interpreter', 'latex', 'fontsize', 22);
