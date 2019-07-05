@@ -3,6 +3,12 @@
 A collection of codes and algorithms I gathered along my my Master's in the Technion incluing :
 Navigation, Vision Aided Navigation, SLAM, SFM, GTSAM, SiFT, State estimation (KF & EKF).
 
+018827 - [Advanced applications in Inertial Systems](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86759).
+
+**Syllabus** :
+Navigation filters, precise methods for IMU initializations, satellite systems and inertial navigation systems integration,
+information fusion with measurable and external data, pedestrian navigation, gyro-free navigation, underwater navigation.
+
 086761 - [Vision Aided Navigation](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86761).
 
 **Syllabus** :
@@ -16,10 +22,3 @@ Orientation Parametrization, Major Coordiante Frames in Navigation Systems, 3D R
 1. Learn the Operating Principles and the Underlying Equations of Inertial Navigation Systems. 
 2. Learn to Perform Analysis to Inertial Navigation Errors. 
 3. Get Familiar with Principle of Operation of GNSS Systems. 
-
-
-018827 - [Advanced applications in Inertial Systems](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86759).
-
-**Syllabus** :
-Navigation filters, precise methods for IMU initializations, satellite systems and inertial navigation systems integration,
-information fusion with measurable and external data, pedestrian navigation, gyro-free navigation, underwater navigation.
