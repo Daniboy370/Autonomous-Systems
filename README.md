@@ -1,7 +1,7 @@
 # Navigation and State Estimation
 
 A collection of codes and algorithms I gathered along my my Master's in the Technion incluing :
-Navigation, Vision Aided Navigation, SLAM, SFM, GTSAM, SiFT, State estimation (KF & EKF).
+Navigation, State estimation (KF & EKF), Vision Aided Navigation and SLAM.
 
 018827 - [Advanced Applications in Inertial Systems](https://www.graduate.technion.ac.il/Subjects.Heb/?SUB=018827&SEM=201702).
 
