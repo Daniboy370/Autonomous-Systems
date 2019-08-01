@@ -24,3 +24,6 @@ Orientation Parametrization, Major Coordiante Frames in Navigation Systems, 3D R
 1. Learn the Operating Principles and the Underlying Equations of Inertial Navigation Systems. 
 2. Learn to Perform Analysis to Inertial Navigation Errors. 
 3. Get Familiar with Principle of Operation of GNSS Systems. 
+
+Demonstration from homeworks :
+![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Hands-on/demo_navigation.png)
