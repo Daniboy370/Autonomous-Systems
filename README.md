@@ -9,6 +9,8 @@ Navigation, State estimation (KF & EKF), Vision Aided Navigation and SLAM.
 Navigation filters, precise methods for IMU initializations, satellite systems and inertial navigation systems integration,
 information fusion with measurable and external data, pedestrian navigation, gyro-free navigation, underwater navigation.
 
+Demonstration from final project :
+
 086761 - [Vision Aided Navigation](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86761).
 
 **Syllabus** :
