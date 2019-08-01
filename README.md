@@ -13,7 +13,7 @@ information fusion with measurable and external data, pedestrian navigation, gyr
 
 **Syllabus** :
 Inertial and Dead Reckoning Navigation, Probabilistic Information Fusion, Vision Aided Navigation, Simultaneous Localization and Mapping, Imu Pre-Integration, Visual-Inertial Bundle Adjustment, Cooperative Navigation and Slam (Centralized and Distributed), Active State Estimation and Belief-Space Planning. 
-
+![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Hands-on/SLAM.png)
 
 086759 - [Navigation Systems](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86759).
 
