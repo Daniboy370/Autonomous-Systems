@@ -10,9 +10,7 @@ Navigation filters, precise methods for IMU initializations, satellite systems a
 information fusion with measurable and external data, pedestrian navigation, gyro-free navigation, underwater navigation.
 
 Demonstration from final project :
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
-sadf:
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=O6Orm3T98A0)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=O6Orm3T98A0)
 
 086761 - [Vision Aided Navigation](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86761).
 
