@@ -9,8 +9,8 @@ Navigation, State estimation (KF & EKF), Vision Aided Navigation and SLAM.
 Navigation filters, precise methods for IMU initializations, satellite systems and inertial navigation systems integration,
 information fusion with measurable and external data, pedestrian navigation, gyro-free navigation, underwater navigation.
 
-Demonstration from final project :
-[![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Error_state.png)](https://www.youtube.com/watch?v=O6Orm3T98A0 | width=100)
+Demonstration from final project (**Click on Video**):
+[![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Error_state.png)](https://www.youtube.com/watch?v=O6Orm3T98A0)
 
 086761 - [Vision Aided Navigation](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86761).
 
