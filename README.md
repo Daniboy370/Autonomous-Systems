@@ -9,7 +9,7 @@ Navigation, State estimation (KF & EKF), Vision Aided Navigation and SLAM.
 Navigation filters, precise methods for IMU initializations, satellite systems and inertial navigation systems integration,
 information fusion with measurable and external data, pedestrian navigation and gyro-free navigation.
 
-In the final project I implemented a full navigation solution with noised IMU and GPS
+Final project exhibits a full navigation solution with noised IMU and GPS
 sensors, estimated by EKF : (**Click on image for a video**):
 
 [![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Error_state.png)](https://www.youtube.com/watch?v=O6Orm3T98A0)
