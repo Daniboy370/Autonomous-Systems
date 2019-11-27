@@ -1,5 +1,5 @@
 **Contents :** \
-Extended Kalman Filter solution for a navigation state model,
+Extended Kalman Filter solution for a navigation strapdown model ,
 under Technion course : \
 Advanced Applications in Inertial Navigation Systems (018827).
 
