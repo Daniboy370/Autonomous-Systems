@@ -1,6 +1,6 @@
 # EKF for a strapdown model
 
-![alt text](https://github.com/Daniboy370/Autonomous-Systems/Course/EKF_imu.png)
+![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Course/EKF_imu.png)
 
 **Contents :** \
 Extended Kalman Filter solution for a navigation strapdown model ,
