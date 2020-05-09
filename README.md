@@ -34,6 +34,5 @@ Orientation Parametrization, Major Coordiante Frames in Navigation Systems, 3D R
 Demonstration from homeworks :
 ![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Hands-on/demo_navigation.png)
 
-#
 ## Requirements
 The codes run solely on *Matlab* without further packages.
