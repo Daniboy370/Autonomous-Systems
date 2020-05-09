@@ -1,11 +1,9 @@
 # EKF for a strapdown model
 
-Online demonstration of EKF estimation performance w.r.t several IMU/GPS fusion ratio, and thus the evolving of the corresponding error. Technion course : Advanced Applications in Inertial Navigation Systems (018827)
+Online demonstration of EKF estimation performance w.r.t several IMU/GPS fusion ratio, and thus the evolving of the corresponding error. Requires basic *Matlab* installation without further packages.
+Technion course : Advanced Applications in Inertial Navigation Systems (018827)
 
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/EKF_imui.png)
-
-## Requirements
-Matlab
 
 ## Contents
 
