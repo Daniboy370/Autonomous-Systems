@@ -10,7 +10,7 @@ information fusion with measurable and external data, pedestrian navigation and 
 The course's final project exhibits a full navigation solution with noised IMU and GPS
 sensors, estimated by EKF, and pronounced in a set of kinematic and global states along the scenario : (**Click on image for a video**):
 
-[![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Error_state.png)](https://www.youtube.com/watch?v=O6Orm3T98A0)
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  [![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Error_state.png)](https://www.youtube.com/watch?v=O6Orm3T98A0)
 
 #
 086761 - [Vision Aided Navigation](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86761).
