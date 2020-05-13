@@ -5,6 +5,15 @@ Technion course : Advanced Applications in Inertial Navigation Systems (018827)
 
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/EKF_imui.png)
 
+sdhgfsd :
+
+![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/EKF_imui.png)
+
+
+sdfghd :
+
+![alt text])https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/drift_velocity.png)
+
 #
 ## Citation
 * Monitoring Degree of Observability in GPS/INS Integration [[link](https://www.researchgate.net/publication/228997493_Monitoring_Degree_of_Observability_in_GPSINS_Integration)] :
