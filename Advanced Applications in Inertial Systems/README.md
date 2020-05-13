@@ -23,7 +23,7 @@ title = {Monitoring Degree of Observability in GPS/INS Integration}
 2. Install Matlab 
 3. Download [raw-data](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Code_model/Trajectory.mat) from the model's directory
 
-#
+
 ## Contents
 
 Extended Kalman Filter solution for a navigation strapdown model ,under Technion course : 
