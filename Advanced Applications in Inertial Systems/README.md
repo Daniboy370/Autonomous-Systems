@@ -7,12 +7,12 @@ Technion course : Advanced Applications in Inertial Navigation Systems (018827)
 
 sdhgfsd :
 
-![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/EKF_imui.png)
+![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/drift_velocity.png)
 
+ssd :
 
-sdfghd :
+![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/drift_map.png)
 
-![alt text])https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/drift_velocity.png)
 
 #
 ## Citation
