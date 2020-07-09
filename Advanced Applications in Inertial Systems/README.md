@@ -8,7 +8,7 @@ Technion course : Advanced Applications in Inertial Navigation Systems (018827)
 Unlike the position that is being corrected by the observation itself ( z̃_GPS ), the errors
 worsen along time, as they evolve in a random walk :
 
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Course/Strapdown%20INS/drift_velocity.png)
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  [![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Error_Estimation_GIF.gif)](https://www.youtube.com/watch?v=O6Orm3T98A0)
 
 The final and most important expression of the IMU drift, can be seen in the
 overall trajectory whose estimated course deviates exponentially over time, w.r.t to GT :
