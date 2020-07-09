@@ -8,9 +8,9 @@ Navigation filters, precise methods for IMU initializations, satellite systems a
 information fusion with measurable and external data, pedestrian navigation and gyro-free navigation.
 
 The course's final project exhibits a full navigation solution with noised IMU and GPS
-sensors, estimated by EKF, and pronounced in a set of kinematic and global states along the scenario : (**Click on image for a video**):
+sensors, estimated by EKF, and pronounced in a set of kinematic and global states along the scenario :
 
-&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  [![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Error_Estimation_GIF.gif)](https://www.youtube.com/watch?v=O6Orm3T98A0)
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  [![Watch the video](https://github.com/Daniboy370/Autonomous-Systems/blob/master/Advanced%20Applications%20in%20Inertial%20Systems/Error_Estimation_GIF.gif)](https://www.youtube.com/watch?v=O6Orm3T98A0) 
 
 Unlike the position that is being corrected by the observation itself ( z̃_GPS ), here the errors
 worsen along time, as they evolve in a random walk :
